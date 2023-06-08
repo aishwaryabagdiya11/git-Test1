@@ -12,6 +12,7 @@ pipeline {
                 echo "this is user define global variable$(a)"
                 '''
             }
+			}
 			
             stage('stage level variable') {
                 environment{
@@ -27,5 +28,5 @@ pipeline {
     }
 }
 }
-}
+
 
